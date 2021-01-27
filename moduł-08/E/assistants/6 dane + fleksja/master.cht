@@ -1,0 +1,29 @@
+
+~[first name]
+  Adam
+  Bartosz
+  Cyprian
+  
+~[surname]
+  Kowalski
+  Nowak
+  Potocki
+  Dąbrowski
+  Szymanik
+
+@[person]
+  ~[first name?] ~[surname]
+
+~[want]
+  chcę
+  chciał[a?]bym
+  proszę
+  czy [mógł|mogła]bym 
+
+~[register]
+  [[dodać|wpisać] kontakt] do bazy
+  zarejestrować w książce [kontaktów?]
+
+%[&add_contact]
+  ~[want] ~[register] @[person]
+

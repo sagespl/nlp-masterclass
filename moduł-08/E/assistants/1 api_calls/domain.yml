@@ -1,0 +1,32 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - tell_me_a_joke
+  - get_forex
+
+actions:
+  - utter_greet
+  - utter_joke
+  - utter_goodbye
+  - action_get_forex
+
+responses:
+  utter_greet:
+  - text: "Cześć! Czym mogę służyć?"
+  - text: "Hej, w czym mogę pomóc"
+
+  utter_goodbye:
+  - text: "Do zobaczenia!"
+  - text: "Na razie!"
+
+  utter_joke:
+  - text: "Przychodzi chatbot do lekarza... A lekarz też chatbot!"
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
