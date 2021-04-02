@@ -1,4 +1,4 @@
-rasa==2.25
+rasa==2.2.5
 spacy==2.3.2
 pandas==1.1.5
 sentence-transformers==0.4.1.2
